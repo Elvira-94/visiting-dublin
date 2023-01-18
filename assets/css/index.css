@@ -187,7 +187,7 @@ body {
 
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url("/assets/images/ha-penny-bridge.jpg");
+    url("../images/ha-penny-bridge.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 37.5rem;
