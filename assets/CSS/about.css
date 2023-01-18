@@ -186,7 +186,7 @@ body {
 /* Hero Section */
 
 .about-container {
-  background: url("/assets/images/history1.jpg");
+  background: url("assets/images/history1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 37.5rem;

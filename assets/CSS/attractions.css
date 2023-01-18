@@ -187,7 +187,7 @@ body {
 
 /* Hero Section */
 .attractions-container {
-  background: url("/assets/images/dublin-attractions.jpg");
+  background: url("assets/images/dublin-attractions.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 37.5rem;

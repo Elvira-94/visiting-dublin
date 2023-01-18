@@ -186,7 +186,7 @@ body {
 /* Hero Section  */
 
 .map-container {
-  background: url("/assets/images/dublinblue.jpg");
+  background: url("assets/images/dublinblue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: bottom;
