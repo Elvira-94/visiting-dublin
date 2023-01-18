@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/7e02640559.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/css/map.css" />
+    <title>Dublin Map</title>
+  </head>
+  <body>
+    <!-- Header Section influenced from https://youtu.be/RqM5Wzuil5U -->
+    <!-- Header & Navbar -->
+    <header class="header" id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="logo">
+            <a href="index.html" aria-label="Takes you back to homepage"
+              ><img
+                src="/assets/images/visiting-dublin-logo.png"
+                id="logo_image"
+                alt="Visiting Dublin Logo in blue text"
+            /></a>
+          </div>
+
+          <!-- Navigation -->
+          <label for="nav-check" class="nav-toggler">
+            <span>Label:</span>
+          </label>
+          <input type="checkbox" id="nav-check" />
+          <nav class="nav">
+            <ul>
+              <li>
+                <a href="home.html" aria-label="You are on the homepage"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  aria-label="You are on the about Dublin section"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="attractions.html"
+                  aria-label="You are on the tourist attractions section"
+                  >Attractions</a
+                >
+              </li>
+              <li>
+                <a href="retail.html" aria-label="You are on the retail section"
+                  >Retail</a
+                >
+              </li>
+              <li>
+                <a
+                  href="map.html"
+                  aria-label="You are on the Dublin map section"
+                  >Map</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  aria-label="Contact Visiting Dublin or site author"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div
+        class="map-container"
+        role="banner"
+        aria-label="Hero image of Dublin city text and animation"
+      ></div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Our Map of Dublin</h2>
+          <h3 class="sub-heading">
+            Use our map to find your way around Dublin!
+          </h3>
+        </div>
+        <!-- Dublin Google Map -->
+        <div class="section-content map-content">
+          <div class="map-iframe-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152515.69312067638!2d-6.245704099999999!3d53.324320099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1673524101381!5m2!1sen!2sie"
+              width="800"
+              height="600"
+              style="border: 0"
+              class="map-iframe"
+              allowfullscreen=""
+              loading="lazy"
+              title="Dublin Location"
+            ></iframe>
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin City Sightseeing Hop-On Hop-Off Tour Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-hop-on-hop-citysightseeing-map.jpg"
+                alt="Dublin City Sightseeing Hop-On Hop-Off Tour Map"
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-hop-on-hop-citysightseeing-map.jpg"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin Bigbus Hop-On Hop-Off Bus Tour Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-bigbus-hop-on-hop-bus-map.jpg"
+                alt=""
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-bigbus-hop-on-hop-bus-map.jpg"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin Metro Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-metro-map.png"
+                alt="Dublin Metro Map"
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-metro-map.png"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin Transport Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-transport-map.jpg"
+                alt="Dublin Transport Map"
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-transport-map.jpg"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin Tourist Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-tourist-map-small.jpg"
+                alt="Dublin Tourist Map"
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-tourist-map-small.jpg"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+
+          <div class="map-content-col">
+            <h4>Dublin Walking Tour Map</h4>
+            <div class="map-content-image">
+              <img
+                src="/assets/images/dublin-walking-map.jpg"
+                alt="Dublin Walking Tour Map"
+              />
+            </div>
+            <a
+              href="/assets/images/dublin-walking-map.jpg"
+              target="_blank"
+              rel="nofollow noopener"
+              class="btn btn-green border-green print-map"
+              >Print Map</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="section-content footer-content">
+          <div class="footer-logo">
+            <a href="home.html"
+              ><img
+                src="/assets/images/visiting-dublin-logo.png"
+                alt="Visiting Dublin logo in blue text"
+            /></a>
+          </div>
+          <div class="footer-cols-container">
+            <div class="footer-content-col">
+              <div class="quick-links-content">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                  <li>
+                    <a href="home.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="attractions.html">Attractions</a>
+                  </li>
+                  <li>
+                    <a href="retail.html">Retail</a>
+                  </li>
+                  <li>
+                    <a href="map.html">Map</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-content-col">
+              <div class="open-times-header">
+                <h3 class="open-times">Office Opening Hours</h3>
+              </div>
+              <div class="open-times-content">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                  </tr>
+                  <tr>
+                    <td>Mon - Fri</td>
+                    <td>09:00</td>
+                    <td>17:00</td>
+                  </tr>
+                  <tr>
+                    <td>Weekend</td>
+                    <td>09:00</td>
+                    <td>14:00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="footer-content-col">
+              <div class="social-links-content">
+                <div class="social-links-header">
+                  <h3 class="social-links-cta">Follow Us Here</h3>
+                </div>
+
+                <div class="social-links">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"
+                        ><i class="fab fa-facebook fa-2x"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"
+                        ><i class="fab fa-twitter fa-2x"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtube.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"
+                        ><i class="fab fa-youtube-square fa-2x"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"
+                        ><i class="fab fa-instagram fa-2x"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
