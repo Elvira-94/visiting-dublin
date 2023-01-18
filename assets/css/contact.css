@@ -186,7 +186,7 @@ body {
 /* Hero Section  */
 
 .contact-container {
-  background: url("assets/images/connect.jpg");
+  background: url("../images/connect.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 37.5rem;
